@@ -67,8 +67,8 @@ def train_model():
 
     # Define training settings
     training_settings = {
-        'data': './NAIRS2.v1i.yolov8/data.yaml',  # Path to the dataset configuration
-        'epochs': 100, #100
+        'data': './TomatoEbola/data.yaml',  # Path to the dataset configuration
+        'epochs': 100, 
         'imgsz': 640,
         'batch': 32, #16
         'augment': True
@@ -76,17 +76,6 @@ def train_model():
 
     # Train the model with the built-in augmentations
     results = model.train(**training_settings)
-
-    '''
-    # Print training progress
-    for epoch, metrics in enumerate(results['epochs']):
-        print(f"Epoch {epoch + 1}/{training_settings['epochs']}")
-        print(f"  Loss: {metrics['loss']:.4f}")
-        print(f"  Precision: {metrics['precision']:.4f}")
-        print(f"  Recall: {metrics['recall']:.4f}")
-        print(f"  mAP@50: {metrics['map50']:.4f}")
-        print(f"  mAP: {metrics['map']:.4f}")
-    '''
 
     # Save the trained model
     #model.save('Ttomato_yolov8.pt')
