@@ -11,6 +11,7 @@ This repository contains the implementation for our paper **"YOLO for Early Dete
 - **Transfer Learning Framework**: Enhanced performance through model adaptation
 
 ## Detection Example
+
 <table>
   <tr>
     <td align="center"><strong>Original Leaf</strong></td>
