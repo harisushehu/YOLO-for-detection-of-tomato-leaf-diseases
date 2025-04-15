@@ -11,12 +11,14 @@ This repository contains the implementation for our paper **"YOLO for Early Dete
 - **Transfer Learning Framework**: Enhanced performance through model adaptation
 
 ![Detection Example](demo/detection_example.jpg) *(Replace with your example image)*
+![Before Detection](assets/kasaisa_input.jpg) | ![After Detection](images/kasaisa_output.jpg)
 
 ## Installation
 1. Clone the repository:
 ```bash
 git clone https://github.com/harisushehu/YOLO-for-detection-of-tomato-leaf-diseases.git
 cd YOLO-for-detection-of-tomato-leaf-diseases
+```
 
 2. Install dependencies:
 ```bash
