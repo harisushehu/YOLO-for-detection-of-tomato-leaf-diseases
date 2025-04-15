@@ -10,8 +10,14 @@ This repository contains the implementation for our paper **"YOLO for Early Dete
 - **Optimized YOLOv8 Pipeline**: Real-time detection system for field deployment
 - **Transfer Learning Framework**: Enhanced performance through model adaptation
 
-![Detection Example](demo/detection_example.jpg) *(Replace with your example image)*
+![Detection Example]
 ![Before Detection](assets/kasaisa_input.jpg) | ![After Detection](assets/kasaisa_output.png)
+
+<p float="left">
+  <img src="assets/kasaisa_input.jpg" alt="Before Detection" width="45%" />
+  <img src="assets/kasaisa_output.png" alt="After Detection" width="45%" />
+</p>
+
 
 ## Installation
 1. Clone the repository:
