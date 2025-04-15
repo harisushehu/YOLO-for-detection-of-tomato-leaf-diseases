@@ -38,7 +38,7 @@ pip install -r requirements.txt
 ```
 
 ## Dataset Structure
-The TomatoEbola dataset follows this structure:
+A sample dataset from one farm in the TomatoEbola dataset has been uploaded. The TomatoEbola dataset follows this structure:
 
 ```
 TomatoEbola/
@@ -50,6 +50,9 @@ TomatoEbola/
 │   └── labels/
 └── data.yaml
 ```
+
+To download the full datasets from the other two farms, please refer to this [link](https://zenodo.org/records/13324917)
+
 
 ## Quick Start
 1. Update dataset paths in YOLOv8.py (Line 70):
