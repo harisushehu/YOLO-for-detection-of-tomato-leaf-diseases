@@ -51,6 +51,7 @@ python YOLOv8.py
 ## Dataset Structure
 The TomatoEbola dataset follows this structure:
 
+```
 TomatoEbola/
 ├── train/
 │   ├── images/
@@ -59,6 +60,7 @@ TomatoEbola/
 │   ├── images/
 │   └── labels/
 └── data.yaml
+```
 
 ## Usage Examples
 
