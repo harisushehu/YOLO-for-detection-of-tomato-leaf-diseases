@@ -10,7 +10,7 @@ This repository contains the implementation for our paper **"YOLO for Early Dete
 - **Optimized YOLOv8 Pipeline**: Real-time detection system for field deployment
 - **Transfer Learning Framework**: Enhanced performance through model adaptation
 
-## Detection Example
+## Example Detection
 
 <table>
   <tr>
