@@ -37,17 +37,6 @@ cd YOLO-for-detection-of-tomato-leaf-diseases
 pip install -r requirements.txt
 ```
 
-## Quick Start
-1. Update dataset paths in YOLOv8.py (Line 70):
-```bash
-'data': './path_to_your_dataset/data.yaml'
-```
-
-2. Run detection:
-```bash
-python YOLOv8.py
-```
-
 ## Dataset Structure
 The TomatoEbola dataset follows this structure:
 
@@ -62,11 +51,15 @@ TomatoEbola/
 └── data.yaml
 ```
 
-## Usage Examples
-
-Training
+## Quick Start
+1. Update dataset paths in YOLOv8.py (Line 70):
 ```bash
-python YOLOv8.py 
+'data': './path_to_your_dataset/data.yaml'
+```
+
+2. Training:
+```bash
+python YOLOv8.py
 ```
 
 ## Citation
