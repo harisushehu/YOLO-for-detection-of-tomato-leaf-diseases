@@ -11,12 +11,17 @@ This repository contains the implementation for our paper **"YOLO for Early Dete
 - **Transfer Learning Framework**: Enhanced performance through model adaptation
 
 ![Detection Example]
-![Before Detection](assets/kasaisa_input.jpg) | ![After Detection](assets/kasaisa_output.png)
+<table>
+  <tr>
+    <td align="center"><strong>Original Leaf</strong></td>
+    <td align="center"><strong>Detected Disease</strong></td>
+  </tr>
+  <tr>
+    <td><img src="assets/kasaisa_input.jpg" alt="Original Leaf" width="300"/></td>
+    <td><img src="assets/kasaisa_output.png" alt="Detected Disease" width="300"/></td>
+  </tr>
+</table>
 
-<p float="left">
-  <img src="assets/kasaisa_input.jpg" alt="Before Detection" width="45%" />
-  <img src="assets/kasaisa_output.png" alt="After Detection" width="45%" />
-</p>
 
 
 ## Installation
